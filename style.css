@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Roboto:wght@100&display=swap');
+
+body,html{
+height: 100%;
+margin: 0;
+font-family: 'Roboto,Condenced',sans-serif;
+line-height: 180%;
+color: #444;
+text-align: center;
+}
+
+.foto1{
+    background-image: url(assets/Fondo2.jpg);
+    min-height: 100%;
+}
+.foto2{
+    background-image: url(assets/Fondo1.jpg);
+    min-height: 60%;
+}
+.foto3{
+    background-image: url(assets/Fondo3.jpg);
+    min-height: 40%;
+}
+.foto4{
+    background-image: url(assets/Fondo4.jpg);
+    min-height: 80%;
+}
+
+.foto1,.foto2,.foto3,.foto4{
+    position: relative;
+    opacity: 75%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Para efecto de fotos*/
+}
+.letrero1{
+    color: #fbfbfb;
+    font-size: 500%;
+    top: 45%;
+}
+.letrero2{
+    color: #c73256;
+    font-size: 450%;
+    top: 55%;
+}
+.letrero3{
+    color: #d1345b;
+    font-size: 350%;
+    top: 65%;
+}
+.letrero4{
+    color: #000;
+    font-size: 250%;
+    top: 45%;
+    font-weight: bold;
+}
+.letrero1,.letrero2,.letrero3,.letrero4{
+  position: absolute;
+  width: 100%;
+  text-transform:uppercase;
+  letter-spacing: 8px;
+  text-shadow: 10px black;
+}
+
+section{
+    padding: 50px 80px;
+
+}
+.dark{
+    background-color: #444;
+    color: #fff;
+}
+
+@media (max-width:768px){
+    .letrero1{
+        font-size: 300%;
+    }
+    .letrero2{
+        font-size: 250%;
+    }
+    .letrero3{
+        font-size: 200%;
+    }
+}
